@@ -133,14 +133,8 @@ img {
 }
 
 .menu .button path,
-#backToTopButton circle,
-#navigation .logo path[fill*='#00856F'] {
+#backToTopButton circle {
   fill: var(--Primary-color);
-}
-
-#navigation.scroll .logo path,
-body.menu-expanded #navigation .logo path {
-  fill: white;
 }
 
 body.menu-expanded #navigation button path {
@@ -171,6 +165,10 @@ nav.scroll {
 
 nav.scroll button path {
   stroke: white;
+}
+
+nav .logo img {
+  height: calc(var(--nav-height) - 6px);
 }
 
 nav button {
@@ -411,13 +409,8 @@ footer .logo {
   margin-bottom: 2.4rem;
 }
 
-footer .logo svg {
-  width: 23.6rem;
-  height: 3.1rem;
-}
-
-footer .logo path {
-  fill: white;
+footer .logo img {
+  width: 30%;
 }
 
 footer p {
