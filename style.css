@@ -128,7 +128,7 @@ img {
   stroke: var(--Primary-color);
 }
 
-#services .card circle {
+#products .card circle {
   fill: var(--Primary-color-light);
 }
 
@@ -328,18 +328,18 @@ body.menu-expanded button {
   margin-top: 0.4rem;
 }
 
-/*=== SERVICES =================================*/
-#services header h2 {
+/*=== PRODUCTS =================================*/
+#products header h2 {
   margin-bottom: 6rem;
 }
 
-#services .cards {
+#products .cards {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
 
-#services .card {
+#products .card {
   padding: 2.4rem;
   text-align: left;
   background: white;
@@ -347,7 +347,7 @@ body.menu-expanded button {
   border-radius: 0.6rem;
 }
 
-#services .cards h3 {
+#products .cards h3 {
   margin-block: 1.6rem;
 }
 
@@ -619,18 +619,18 @@ footer .social-links {
     flex: 1;
   }
 
-  /*=== SERVICES =================================*/
-  #services h2 {
+  /*=== PRODUCTS =================================*/
+  #products h2 {
     width: 47rem;
     margin-inline: auto;
   }
 
-  #services .cards {
+  #products .cards {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
   }
-  #services .card {
+  #products .card {
     width: 30%;
     flex-grow: 1;
   }
